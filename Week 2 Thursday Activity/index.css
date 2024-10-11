@@ -1,0 +1,53 @@
+body {
+    background-color: #fdfae7;
+    font-family: "Segoe UI";
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.button {
+    background-color: #ffe4a5;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.info-container {
+    display: flex;
+    align-items: flex-start;
+    background-color: #f7d794;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffe4a5;
+    padding: 20px;
+}
+
+.resume {
+    padding: 20px;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+} 
+
+footer {
+    background-color: #f7d794;
+    padding: 10px;
+    text-align: center;
+}
